@@ -1,7 +1,5 @@
 # 🚀 Multi-Environment Infrastructure Automation using Terraform & Ansible
 
-# 🚀 Multi-Environment Infrastructure Automation using Terraform & Ansible
-
 <p align="center">
   <img src="images/Project-design.gif" alt="Project Architecture">
 </p>
