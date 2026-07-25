@@ -27,8 +27,7 @@ Terraform provisions the infrastructure while Ansible automatically configures e
 
 > Add the architecture image below.
 
-![Architecture](Project-design.gif)
-
+![Project-diagram](images/Project-design.gif)
 ---
 
 # 🎯 Objectives
