@@ -1,0 +1,10 @@
+[servers]
+server1 ansible_host=18.60.109.242
+server2 ansible_host=18.60.156.255
+
+[servers:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/spider/Documents/terra-multi-env/terraform/tws-terra-key
+ansible_python_interpreter=/usr/bin/python3
+
+

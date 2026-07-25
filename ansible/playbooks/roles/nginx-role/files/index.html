@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Essa | DevOps Engineer</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+.glass{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.08);
+}
+
+.gradient{
+background:linear-gradient(90deg,#00F5A0,#00D9F5,#6C63FF);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+}
+
+.circle{
+position:absolute;
+border-radius:50%;
+filter:blur(100px);
+opacity:.3;
+animation:float 8s infinite alternate;
+}
+
+.c1{
+width:300px;
+height:300px;
+background:#00f5a0;
+top:10%;
+left:10%;
+}
+
+.c2{
+width:350px;
+height:350px;
+background:#6C63FF;
+right:5%;
+bottom:5%;
+}
+
+@keyframes float{
+
+100%{
+transform:translateY(-40px) translateX(30px);
+}
+
+}
+
+.skill{
+transition:.4s;
+}
+
+.skill:hover{
+
+transform:translateY(-10px) scale(1.05);
+
+background:#00f5a0;
+color:black;
+
+}
+
+.project{
+
+transition:.4s;
+
+}
+
+.project:hover{
+
+transform:scale(1.04);
+
+}
+
+button{
+
+transition:.4s;
+
+}
+
+button:hover{
+
+transform:translateY(-3px);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+
+<nav class="fixed top-0 left-0 w-full glass z-50">
+
+<div class="max-w-7xl mx-auto flex justify-between items-center p-5">
+
+<h1 class="text-2xl font-bold gradient">
+Muhammad Essa
+</h1>
+
+<div class="space-x-6 hidden md:flex">
+
+<a href="#about">About</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="text-center">
+
+<h2 class="text-6xl md:text-7xl font-extrabold mb-5">
+
+Hi, I'm
+
+<span class="gradient">
+
+Muhammad Essa
+
+</span>
+
+</h2>
+
+<p class="text-2xl text-gray-300">
+
+DevOps Engineer • Cloud Enthusiast • Automation Lover
+
+</p>
+
+<p class="mt-8 text-gray-400 max-w-3xl mx-auto">
+
+Passionate DevOps Engineer focused on building scalable cloud infrastructure,
+CI/CD pipelines, Infrastructure as Code, and Kubernetes deployments using
+AWS, Docker, Terraform, Jenkins and Ansible.
+
+</p>
+
+<div class="mt-10 space-x-4">
+
+<a href="https://www.linkedin.com/in/muhammad-essa-566b243a2/" target="_blank">
+
+<button class="bg-cyan-400 text-black px-8 py-3 rounded-full font-semibold">
+
+LinkedIn
+
+</button>
+
+</a>
+
+<button class="border border-cyan-400 px-8 py-3 rounded-full">
+
+Download CV
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="py-24">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-5xl font-bold mb-10 gradient">
+
+About Me
+
+</h2>
+
+<div class="glass rounded-3xl p-10 text-gray-300 text-lg leading-9">
+
+I am Muhammad Essa, a passionate DevOps Engineer who enjoys designing,
+automating and deploying cloud infrastructure.
+
+My expertise includes Linux, AWS, Azure, Docker, Kubernetes, Jenkins,
+Terraform, Git, GitHub, Python, Prometheus, Grafana and Ansible.
+
+I enjoy solving infrastructure challenges and building scalable, secure
+and automated cloud solutions.
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills" class="py-20">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-5xl font-bold mb-14 gradient">
+
+Technical Skills
+
+</h2>
+
+<div class="grid md:grid-cols-4 gap-8">
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+☁️
+
+<h3 class="text-xl font-bold mt-4">
+
+AWS
+
+</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+🐳
+
+<h3 class="text-xl font-bold mt-4">
+
+Docker
+
+</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+☸️
+
+<h3 class="text-xl font-bold mt-4">
+
+Kubernetes
+
+</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+🏗️
+
+<h3 class="text-xl font-bold mt-4">
+
+Terraform
+
+</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+⚙️
+
+<h3 class="text-xl font-bold mt-4">
+
+Jenkins
+
+</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+🤖
+
+<h3 class="text-xl font-bold mt-4">
+
+Ansible
+
+</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+🐧
+
+<h3 class="text-xl font-bold mt-4">
+
+Linux
+
+</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center skill">
+
+🐍
+
+<h3 class="text-xl font-bold mt-4">
+
+Python
+
+</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="py-20">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-5xl font-bold mb-14 gradient">
+
+Projects
+
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="glass rounded-3xl p-8 project">
+
+<h3 class="text-2xl font-bold">
+
+AWS Multi Environment Infrastructure
+
+</h3>
+
+<p class="mt-4 text-gray-400">
+
+Provisioned Dev, Stage and Production environments using Terraform modules.
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 project">
+
+<h3 class="text-2xl font-bold">
+
+CI/CD Banking Application
+
+</h3>
+
+<p class="mt-4 text-gray-400">
+
+Automated Docker builds and deployments using Jenkins pipelines.
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 project">
+
+<h3 class="text-2xl font-bold">
+
+Dockerized Flask App
+
+</h3>
+
+<p class="mt-4 text-gray-400">
+
+Containerized Flask application deployed on AWS with Docker.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="py-24">
+
+<div class="max-w-5xl mx-auto text-center">
+
+<h2 class="text-5xl font-bold gradient mb-10">
+
+Let's Connect
+
+</h2>
+
+<p class="text-gray-400 text-lg">
+
+Available for DevOps, Cloud and Automation opportunities.
+
+</p>
+
+<div class="mt-10 flex flex-wrap justify-center gap-6">
+
+<a href="https://www.linkedin.com/in/muhammad-essa-566b243a2/" target="_blank">
+
+<button class="bg-cyan-400 text-black px-8 py-3 rounded-full">
+
+LinkedIn
+
+</button>
+
+</a>
+
+<button class="border border-cyan-400 px-8 py-3 rounded-full">
+
+GitHub
+
+</button>
+
+<button class="border border-cyan-400 px-8 py-3 rounded-full">
+
+Email
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="py-10 text-center text-gray-500">
+
+© 2026 Muhammad Essa • DevOps Engineer
+
+</footer>
+
+</body>
+</html>
