@@ -1,12 +1,10 @@
 # 🚀 Multi-Environment Infrastructure Automation using Terraform & Ansible
 
-![AWS](https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonaws)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?style=for-the-badge&logo=terraform)
-![Ansible](https://img.shields.io/badge/Ansible-Automation-black?style=for-the-badge&logo=ansible)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu)
-![Linux](https://img.shields.io/badge/Linux-DevOps-FCC624?style=for-the-badge&logo=linux)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
+# 🚀 Multi-Environment Infrastructure Automation using Terraform & Ansible
 
+<p align="center">
+  <img src="images/Project-design.gif" alt="Project Architecture">
+</p>
 ---
 
 # 📖 Project Overview
@@ -23,14 +21,6 @@ Terraform provisions the infrastructure while Ansible automatically configures e
 
 ---
 
-
-# 🏗 Project Architecture
-
-The following diagram illustrates the complete workflow of this project, where Terraform provisions AWS infrastructure across multiple environments and Ansible automates server configuration using environment-specific inventories.
-
-<p align="center">
-  <img src="images/Project-design.gif" alt="Terraform Ansible Multi Environment Architecture" width="100%">
-</p>
 
 # 🎯 Objectives
 
