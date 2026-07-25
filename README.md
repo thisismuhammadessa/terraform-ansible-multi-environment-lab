@@ -23,12 +23,14 @@ Terraform provisions the infrastructure while Ansible automatically configures e
 
 ---
 
+
 # 🏗 Project Architecture
 
-> Add the architecture image below.
+The following diagram illustrates the complete workflow of this project, where Terraform provisions AWS infrastructure across multiple environments and Ansible automates server configuration using environment-specific inventories.
 
-![Project-diagram](images/Project-design.gif)
----
+<p align="center">
+  <img src="images/Project-design.gif" alt="Terraform Ansible Multi Environment Architecture" width="100%">
+</p>
 
 # 🎯 Objectives
 
